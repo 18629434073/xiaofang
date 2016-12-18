@@ -1,0 +1,193 @@
+/* CSS Document */
+body{margin:0;
+	padding:0;
+	overflow-x:hidden;
+	}
+html, body{
+	height:100%;
+	}
+img{
+	border:none;
+	}
+*{
+	font-family:'微软雅黑';
+	font-size:12px;
+	color:#626262;}
+dl,dt,dd{
+	display:block;
+	margin:0;}
+a{
+	text-decoration:none;
+	}
+
+dd{
+	margin:5px;
+	color:#FFF; 
+	cursor:pointer;
+	background:#C90;
+	}
+
+#bg{
+	background-image:url(../images/content/dotted.png);
+	}
+.container{
+	width:100%;
+	height:100%;
+	margin:auto;
+	}
+.top{
+	width:100%;
+	height:20px;
+	position:fixed;
+	padding:5px 5px 5px 20px;
+	line-height:20px;
+	z-index:9999;
+	background-color:#FFF;
+	box-shadow:1px 1px 5px #999;
+	-webkit-box-shadow:1px 1px 5px #999;  
+    -moz-box-shadow: 1px 1px 5px #999; 
+}
+ 
+.top > span {
+	font-size:14px;
+	color:#cc0000;
+	}
+.user{
+	float:right; 
+	margin-right:40px;
+	}
+.user>span{
+	cursor:pointer
+	}
+/*left*/
+.leftsidebar_box{
+	width:160px;
+	height:auto !important;
+	overflow:visible !important;
+	position:fixed;
+	padding-top:20px;
+	margin-top:30px;
+	height:100% !important;
+	background-color:#cc0000;
+	opacity:0.8;
+	}
+.line{
+	height:2px;
+	width:100%;
+	background-image:url(../images/left/line_bg.png);
+	background-repeat:repeat-x;
+	}
+.leftsidebar_box dt{
+	width:100%;
+	height:48px; 
+	color:#fff; 
+	margin:0px; 
+	padding:0px; 
+	line-height:48px;
+	cursor:pointer;
+	}
+.leftsidebar_box span{
+	float:left; background:url(../images/left/statistics.png) no-repeat left center; padding-left:30px; margin-left:5px;color:#fff;
+	}
+.leftsidebar_box img{
+	margin:20px; float:right; src:url(../images/left/select_xl01.png);
+	}
+.leftsidebar_box dd{
+	background-color:#cc0000;
+	padding-left:40px;
+	padding:4px;
+	margin-top:5px;
+	text-align:center;
+	}
+.leftsidebar_box dd a{
+	color:#f5f5f5;
+	line-height:20px;
+	}
+/*main_box*/
+.main_box{
+	height:100%; 
+	position:fixed; 
+	top:60px; 
+	width:100%; 
+	left:170px; 
+	background:#fff; 
+	border:1px solid #cc0000;
+	}
+.title{
+	position:absolute; 
+	margin-top:-24px;
+	margin-left:10px
+	}
+	
+/*team manage*/
+.teamtable{
+	width:100%;
+	padding:10px;
+	
+	}
+
+.teamtable_title{
+	width:100%;
+	height:100%;
+	border:solid #ffffff; 
+	border-width:1px 0px 0px 1px;
+	height:auto;
+	}
+
+.teamtable_title tr{
+	height:50px;
+	line-height:10px;
+	}
+.teamtable_title td{
+	background:#666;
+	color:#FFF;
+	text-align:center;
+	width:30px;
+	border:solid #ffffff; 
+	border-width:0px 1px 0px 0px;
+	}
+.teamtable_main{
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+	border:solid #666; 
+	margin-top:10px;
+	border-width:1px 0px 0px 1px;
+	height:auto;
+	}
+.teamtable_main tr{
+	height:30px;
+	line-height:20px;
+	}
+.teamtable_main td{
+	overflow:hidden;
+	background:#fff;
+	color:#000;
+	text-align:center;
+	width:30px;
+	border:solid #666; 
+	padding:0px;
+	border-width:0px 1px 1px 0px;
+	}
+/*管理界面--修改*/
+.baseinfo_box{
+	width:400px; 
+	height:300px; 
+	background:#fff; 
+	padding:20px; 
+	text-align:center; 
+	border:1px solid  #cccccc; 
+	float:left; 
+	margin:30px
+	}
+.baseinfo_box_title{
+	width:10x; 
+	height:30px; 
+	background:#cc0000; 
+	color:#FFF; 
+	margin-top:-30px; 
+	line-height:30px;
+	display:block; 
+	margin-bottom:40px
+	
+	}
